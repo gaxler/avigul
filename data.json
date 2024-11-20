@@ -15,6 +15,19 @@
           {
             "header": "TAMATOA",
             "imageUrl": "https://i.ytimg.com/vi/2q8GLJyUYN4/mqdefault.jpg"
+          },
+          {
+            "header": "MAT",
+            "imageUrl": "https://bobbooks.com/wp-content/uploads/2024/02/4._Set1_Book1_pg3.png"
+          },
+          {
+            "header": "DOT",
+            "imageUrl": "https://m.media-amazon.com/images/I/519MKFA8M0L._AC_UF1000,1000_QL80_.jpg"
+          },
+          {
+            "header": "MIT",
+            "imageUrl": "https://bookclubs.scholastic.ca/dw/image/v2/AAXY_PRD/on/demandware.static/-/Sites-master-catalog-cec-ca/default/dw9629fb74/products/9781339023847-3.jpg?sw=960&sh=960&sm=fit&sfrm=jpg"
           }
+
     ]
   }
