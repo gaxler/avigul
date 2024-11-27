@@ -35,7 +35,16 @@
           {
             "header": "BOOK",
             "imageUrl":"https://prodimage.images-bn.com/pimages/9781665927925_p4_v5_s600x595.jpg"
+          },
+          {
+            "header": "MOANA",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/56/Moana_%28character%29.png"
+          },
+          {
+            "header": "MOANA",
+            "imageUrl": "https://i2.wp.com/cornellsun.com/wp-content/uploads/2016/11/moana.jpg?fit=950%2C613&ssl=1"
           }
+
 
     ]
   }
