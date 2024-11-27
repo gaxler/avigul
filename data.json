@@ -55,7 +55,39 @@
           {
             "header":"TREE",
             "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrWGnkEWaaNZjJTYAVRWZwi1ehw0muzeOnwg&s"
-          }
+          },
+          {
+            "header": "CAT",
+            "imageUrl": "https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcHUyMzMxNjM2LWltYWdlLTAxLXJtNTAzXzMtbDBqOXFrNnEucG5n.png"
+          },
+          {
+            "header": "DOG",
+            "imageUrl":"https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg"
+          },
+          {
+            "header": "EMILY",
+            "imageUrl":"https://occ-0-8407-116.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABfOXnyyfAM0j1V6zn-HnFd1bzdFDcQJdg6MLMZUw-nxvUxTGTrnx65po1oGbrRi23PN1XNInBYisWaiyGAxLujyssUr_TKMyr5r6HMkhqyMoWWmvJSf7UMxZ.jpg?r=1f8"
+          },
+          {
+            "header": "DAD",
+            "imageUrl":"https://avatars.githubusercontent.com/u/2427042?v=4"
+          },
+          {
+            "header": "ABBA",
+            "imageUrl":"https://avatars.githubusercontent.com/u/2427042?v=4"
+          }, 
+          {
+            "header": "EINAV",
+            "imageUrl":"https://assets.fenwick.com/attorney-images/_1200x630_fit_center-center_82_none/AxlerEinav_torso.png?mtime=1691105430"
+          },
+            {
+              "header": "MOM",
+              "imageUrl":"https://assets.fenwick.com/attorney-images/_1200x630_fit_center-center_82_none/AxlerEinav_torso.png?mtime=1691105430"
+            },
+            {
+              "header": "IMMA",
+              "imageUrl":"https://assets.fenwick.com/attorney-images/_1200x630_fit_center-center_82_none/AxlerEinav_torso.png?mtime=1691105430"
+            }
 
 
     ]
