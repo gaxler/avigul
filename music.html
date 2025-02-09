@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Musical Notes Scale with Piano</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+    }
+    h1, p {
+      text-align: center;
+    }
+    /* Scale Container */
+    #scale {
+      margin: 20px auto;
+      width: 90%;
+      min-height: 200px;
+      border: 2px solid #333;
+      background-color: #fff;
+      padding: 10px;
+      padding-left: 60px; /* Add space for treble clef */
+      position: relative;
+      display: flex;
+      align-items: flex-start;
+      overflow: hidden; /* Hide overflow */
+    }
+    /* Staff Lines */
+    .staff-line {
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background-color: black;
+      left: 0;
+    }
+    /* Note Circle */
+    .note {
+      position: relative;
+      margin: 10px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      font-weight: bold;
+      font-size: 16px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1;
+      transition: transform 0.3s ease; /* Add smooth transition */
+    }
+    /* Piano Container */
+    #piano {
+      margin: 20px auto;
+      width: 90%;
+      display: flex;
+      justify-content: center;
+    }
+    /* Piano Keys */
+    .piano-key {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      border: 2px solid #999;
+      margin: 8px;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.2s, filter 0.2s;
+      color: white;
+    }
+    .piano-key:active {
+      transform: scale(0.95);
+      filter: brightness(85%);
+    }
+    /* Add Treble Clef styles */
+    .treble-clef {
+      position: absolute;
+      left: 10px;
+      top: 20px;  /* Adjusted to better center vertically */
+      font-size: 120px;  /* Increased from 60px to make it taller */
+      z-index: 1;
+      line-height: 1;  /* Added to prevent extra spacing */
+    }
+  </style>
+</head>
+<body>
+  <h1>Musical Notes Scale with Piano</h1>
+  <p>
+    Press letters C, D, E, F, G, A, or B <br>
+    or click on the piano keys below to add notes to the scale.
+  </p>
+
+  <!-- Scale Container -->
+  <div id="scale">
+    <div class="treble-clef">𝄞</div>
+    <!-- Staff lines will be added here by JavaScript -->
+  </div>
+
+  <!-- Piano Keyboard -->
+  <div id="piano">
+    <button class="piano-key" data-note="c" style="background-color: red">C</button>
+    <button class="piano-key" data-note="d" style="background-color: orange">D</button>
+    <button class="piano-key" data-note="e" style="background-color: yellow; color: black">E</button>
+    <button class="piano-key" data-note="f" style="background-color: green">F</button>
+    <button class="piano-key" data-note="g" style="background-color: blue">G</button>
+    <button class="piano-key" data-note="a" style="background-color: indigo">A</button>
+    <button class="piano-key" data-note="b" style="background-color: violet">B</button>
+  </div>
+
+  <script>
+    // Mapping keys to their solfege names and colors.
+    // C => Do, D => Re, E => Mi, F => Fa, G => So, A => La, B => Ti.
+    const noteMapping = {
+      'c': { name: 'Do', color: 'red' },
+      'd': { name: 'Re', color: 'orange' },
+      'e': { name: 'Mi', color: 'yellow', textColor: 'black' }, // yellow needs dark text
+      'f': { name: 'Fa', color: 'green' },
+      'g': { name: 'So', color: 'blue' },
+      'a': { name: 'La', color: 'indigo' },
+      'b': { name: 'Ti', color: 'violet' }
+    };
+
+    // Create staff lines
+    const scale = document.getElementById('scale');
+    for (let i = 0; i < 5; i++) {
+      const line = document.createElement('div');
+      line.className = 'staff-line';
+      line.style.top = `${50 + i * 25}px`;
+      scale.appendChild(line);
+    }
+
+    // Add audio context and note frequencies
+    const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+    const noteFrequencies = {
+      'c': 261.63, // C4
+      'd': 293.66, // D4
+      'e': 329.63, // E4
+      'f': 349.23, // F4
+      'g': 392.00, // G4
+      'a': 440.00, // A4
+      'b': 493.88  // B4
+    };
+
+    // Function to play a note
+    function playNote(frequency) {
+      const oscillator = audioContext.createOscillator();
+      const gainNode = audioContext.createGain();
+      
+      oscillator.type = 'sine';
+      oscillator.frequency.value = frequency;
+      
+      gainNode.gain.setValueAtTime(0.5, audioContext.currentTime);
+      gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.5);
+      
+      oscillator.connect(gainNode);
+      gainNode.connect(audioContext.destination);
+      
+      oscillator.start();
+      oscillator.stop(audioContext.currentTime + 0.5);
+    }
+
+    // Modified addNoteToScale function
+    function addNoteToScale(noteInfo, noteKey) {
+      const scale = document.getElementById('scale');
+      const noteDiv = document.createElement('div');
+      noteDiv.className = 'note';
+      noteDiv.style.backgroundColor = noteInfo.color;
+      if (noteInfo.textColor) {
+        noteDiv.style.color = noteInfo.textColor;
+      }
+      noteDiv.textContent = noteInfo.name;
+      
+      const positions = {
+        'Ti': 38,  // B
+        'La': 50,  // A
+        'So': 63,  // G
+        'Fa': 75,  // F
+        'Mi': 88,  // E
+        'Re': 100, // D
+        'Do': 113  // C
+      };
+      
+      noteDiv.style.marginTop = `${positions[noteInfo.name]}px`;
+      
+      // Insert new note at the end
+      scale.appendChild(noteDiv);
+
+      // Play the note
+      playNote(noteFrequencies[noteKey]);
+
+      // Slide existing notes to the left
+      const notes = Array.from(scale.getElementsByClassName('note'));
+      const noteWidth = 60; // Width + margin
+      
+      // Apply transforms in reverse order
+      for (let i = notes.length - 1; i >= 0; i--) {
+        const translateX = noteWidth * (notes.length - 1 - i);
+        notes[i].style.transform = `translateX(-${translateX}px)`;
+      }
+
+      // Remove notes that are off-screen
+      const scaleWidth = scale.offsetWidth;
+      const maxNotes = Math.floor(scaleWidth / noteWidth);
+      while (notes.length > maxNotes) {
+        scale.removeChild(notes[0]);
+      }
+    }
+
+    // Modified event listeners to pass the note key
+    document.addEventListener('keydown', function(event) {
+      const key = event.key.toLowerCase();
+      if (noteMapping.hasOwnProperty(key)) {
+        addNoteToScale(noteMapping[key], key);
+      }
+    });
+
+    document.querySelectorAll('.piano-key').forEach(function(button) {
+      button.addEventListener('click', function() {
+        const noteKey = this.getAttribute('data-note');
+        if (noteMapping.hasOwnProperty(noteKey)) {
+          addNoteToScale(noteMapping[noteKey], noteKey);
+        }
+      });
+    });
+  </script>
+</body>
+</html>
