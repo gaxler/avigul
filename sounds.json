@@ -1,0 +1,380 @@
+{
+    "word_families": [
+        {
+            "sound": "at",
+            "words": [
+                "cat",
+                "hat",
+                "mat",
+                "rat",
+                "bat",
+                "fat",
+                "pat",
+                "sat"
+            ],
+            "extra_sounds": [
+                "c",
+                "h",
+                "m",
+                "r",
+                "b",
+                "f",
+                "p",
+                "s"
+            ]
+        },
+        {
+            "sound": "ad",
+            "words": [
+                "dad",
+                "bad"
+            ],
+            "extra_sounds": [
+                "d",
+                "b"
+            ]
+        },
+        {
+            "sound": "an",
+            "words": [
+                "fan",
+                "man",
+                "can",
+                "pan",
+                "ran",
+                "tan",
+                "van"
+            ],
+            "extra_sounds": [
+                "f",
+                "m",
+                "c",
+                "p",
+                "r",
+                "t",
+                "v"
+            ]
+        },
+        {
+            "sound": "ed",
+            "words": [
+                "bed",
+                "red"
+            ],
+            "extra_sounds": [
+                "b",
+                "r"
+            ]
+        },
+        {
+            "sound": "et",
+            "words": [
+                "pet",
+                "wet"
+            ],
+            "extra_sounds": [
+                "p",
+                "w"
+            ]
+        },
+        {
+            "sound": "en",
+            "words": [
+                "ten",
+                "hen"
+            ],
+            "extra_sounds": [
+                "t",
+                "h"
+            ]
+        },
+        {
+            "sound": "ig",
+            "words": [
+                "pig",
+                "big",
+                "dig"
+            ],
+            "extra_sounds": [
+                "p",
+                "b",
+                "d"
+            ]
+        },
+        {
+            "sound": "in",
+            "words": [
+                "fin",
+                "bin",
+                "pin",
+                "tin",
+                "win"
+            ],
+            "extra_sounds": [
+                "f",
+                "b",
+                "p",
+                "t",
+                "w"
+            ]
+        },
+        {
+            "sound": "it",
+            "words": [
+                "sit",
+                "hit"
+            ],
+            "extra_sounds": [
+                "s",
+                "h"
+            ]
+        },
+        {
+            "sound": "ip",
+            "words": [
+                "lip"
+            ],
+            "extra_sounds": [
+                "l"
+            ]
+        },
+        {
+            "sound": "og",
+            "words": [
+                "dog",
+                "log",
+                "fog"
+            ],
+            "extra_sounds": [
+                "d",
+                "l",
+                "f"
+            ]
+        },
+        {
+            "sound": "ot",
+            "words": [
+                "hot",
+                "pot"
+            ],
+            "extra_sounds": [
+                "h",
+                "p"
+            ]
+        },
+        {
+            "sound": "op",
+            "words": [
+                "top",
+                "mop",
+                "hop",
+                "pop",
+                "shop"
+            ],
+            "extra_sounds": [
+                "t",
+                "m",
+                "h",
+                "p",
+                "sh"
+            ]
+        },
+        {
+            "sound": "ug",
+            "words": [
+                "bug",
+                "rug"
+            ],
+            "extra_sounds": [
+                "b",
+                "r"
+            ]
+        },
+        {
+            "sound": "un",
+            "words": [
+                "run",
+                "sun"
+            ],
+            "extra_sounds": [
+                "r",
+                "s"
+            ]
+        },
+        {
+            "sound": "up",
+            "words": [
+                "cup"
+            ],
+            "extra_sounds": [
+                "c"
+            ]
+        },
+        {
+            "sound": "ud",
+            "words": [
+                "mud"
+            ],
+            "extra_sounds": [
+                "m"
+            ]
+        },
+        {
+            "sound": "ag",
+            "words": [
+                "bag",
+                "tag",
+                "wag",
+                "rag",
+                "sag"
+            ],
+            "extra_sounds": [
+                "b",
+                "t",
+                "w",
+                "r",
+                "s"
+            ]
+        },
+        {
+            "sound": "ap",
+            "words": [
+                "cap",
+                "lap",
+                "map",
+                "nap",
+                "tap",
+                "zap"
+            ],
+            "extra_sounds": [
+                "c",
+                "l",
+                "m",
+                "n",
+                "t",
+                "z"
+            ]
+        },
+        {
+            "sound": "ill",
+            "words": [
+                "fill",
+                "hill",
+                "mill",
+                "pill",
+                "will"
+            ],
+            "extra_sounds": [
+                "f",
+                "h",
+                "m",
+                "p",
+                "w"
+            ]
+        },
+        {
+            "sound": "ell",
+            "words": [
+                "bell",
+                "cell",
+                "tell",
+                "well",
+                "sell"
+            ],
+            "extra_sounds": [
+                "b",
+                "c",
+                "t",
+                "w",
+                "s"
+            ]
+        },
+        {
+            "sound": "ack",
+            "words": [
+                "back",
+                "pack",
+                "rack",
+                "sack",
+                "tack"
+            ],
+            "extra_sounds": [
+                "b",
+                "p",
+                "r",
+                "s",
+                "t"
+            ]
+        },
+        {
+            "sound": "ock",
+            "words": [
+                "lock",
+                "rock",
+                "sock",
+                "dock",
+                "mock"
+            ],
+            "extra_sounds": [
+                "l",
+                "r",
+                "s",
+                "d",
+                "m"
+            ]
+        },
+        {
+            "sound": "ick",
+            "words": [
+                "kick",
+                "lick",
+                "pick",
+                "sick",
+                "tick"
+            ],
+            "extra_sounds": [
+                "k",
+                "l",
+                "p",
+                "s",
+                "t"
+            ]
+        },
+        {
+            "sound": "ash",
+            "words": [
+                "bash",
+                "cash",
+                "dash",
+                "hash",
+                "mash",
+                "rash"
+            ],
+            "extra_sounds": [
+                "b",
+                "c",
+                "d",
+                "h",
+                "m",
+                "r"
+            ]
+        },
+        {
+            "sound": "ing",
+            "words": [
+                "king",
+                "ring",
+                "sing",
+                "wing",
+                "sting"
+            ],
+            "extra_sounds": [
+                "k",
+                "r",
+                "s",
+                "w",
+                "st"
+            ]
+        }
+    ]
+}

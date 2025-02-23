@@ -1,0 +1,390 @@
+{
+    "cat": {
+        "url": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba",
+        "sight": false
+    },
+    "hat": {
+        "url": "https://images.unsplash.com/photo-1533827432537-70133748f5c8",
+        "sight": false
+    },
+    "mat": {
+        "url": "https://images.unsplash.com/photo-1580136579312-94651dfd596d",
+        "sight": false
+    },
+    "rat": {
+        "url": "https://images.unsplash.com/photo-1589952283406-b53a7d1347e8",
+        "sight": false
+    },
+    "bat": {
+        "url": "https://t3.ftcdn.net/jpg/10/49/42/32/360_F_1049423243_53xTu0smCJKbAGrqSdTWPSGHGbzg0otB.jpg",
+        "sight": false
+    },
+    "fat": {
+        "url": "https://cdn.vectorstock.com/i/1000v/67/94/fat-man-vector-3166794.jpg",
+        "sight": false
+    },
+    "pat": {
+        "url": "https://media4.giphy.com/media/N0CIxcyPLputW/200w.gif?cid=6c09b9528hq5z0dx3jal6ia3x1uujjkpwu9t8ert1pw12lj8&ep=v1_gifs_search&rid=200w.gif&ct=g",
+        "sight": false
+    },
+    "sat": {
+        "url": "https://media.tenor.com/JYBfiXzRr_UAAAAM/ponke-ponkesol.gif",
+        "sight": false
+    },
+    "dad": {
+        "url": "https://images.unsplash.com/photo-placeholder-dad",
+        "sight": false
+    },
+    "bad": {
+        "url": "https://images.unsplash.com/photo-placeholder-bad",
+        "sight": false
+    },
+    "fan": {
+        "url": "https://media0.giphy.com/media/Rro4bjljaFfTTsrHDf/giphy.gif?cid=6c09b952z02fsmhxj161jylzobgdo347ip992o7120iswmnx&ep=v1_stickers_search&rid=giphy.gif&ct=s",
+        "sight": false
+    },
+    "man": {
+        "url": "https://images.unsplash.com/photo-placeholder-man",
+        "sight": false
+    },
+    "can": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/We_Can_Do_It%21_NARA_535413_-_Restoration_2.jpg/1200px-We_Can_Do_It%21_NARA_535413_-_Restoration_2.jpg",
+        "sight": true
+    },
+    "pan": {
+        "url": "https://t4.ftcdn.net/jpg/02/33/56/39/360_F_233563961_kE9T55F8EoBCKpKuXnrXTV1bIgQIve7W.jpg",
+        "sight": false
+    },
+    "ran": {
+        "url": "https://i.pinimg.com/originals/f8/65/6d/f8656d75a4be9fc4a16380a8301b9319.gif",
+        "sight": false
+    },
+    "tan": {
+        "url": "https://images.unsplash.com/photo-placeholder-tan",
+        "sight": false
+    },
+    "van": {
+        "url": "https://smokeydavan.com/wp-content/uploads/2022/03/img_0662.jpg?w=1024",
+        "sight": false
+    },
+    "bed": {
+        "url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+        "sight": false
+    },
+    "red": {
+        "url": "https://images.unsplash.com/photo-placeholder-red",
+        "sight": false
+    },
+    "pet": {
+        "url": "https://images.unsplash.com/photo-placeholder-pet",
+        "sight": false
+    },
+    "wet": {
+        "url": "https://images.unsplash.com/photo-placeholder-wet",
+        "sight": false
+    },
+    "ten": {
+        "url": "https://images.unsplash.com/photo-placeholder-ten",
+        "sight": false
+    },
+    "hen": {
+        "url": "https://images.unsplash.com/photo-placeholder-hen",
+        "sight": false
+    },
+    "pig": {
+        "url": "https://images.unsplash.com/photo-1516467508483-a7212febe31a",
+        "sight": false
+    },
+    "big": {
+        "url": "https://images.unsplash.com/photo-placeholder-big",
+        "sight": false
+    },
+    "dig": {
+        "url": "https://images.unsplash.com/photo-placeholder-dig",
+        "sight": false
+    },
+    "fin": {
+        "url": "https://images.unsplash.com/photo-placeholder-fin",
+        "sight": false
+    },
+    "bin": {
+        "url": "https://images.unsplash.com/photo-placeholder-bin",
+        "sight": false
+    },
+    "pin": {
+        "url": "https://images.unsplash.com/photo-placeholder-pin",
+        "sight": false
+    },
+    "tin": {
+        "url": "https://images.unsplash.com/photo-placeholder-tin",
+        "sight": false
+    },
+    "win": {
+        "url": "https://images.unsplash.com/photo-placeholder-win",
+        "sight": false
+    },
+    "sit": {
+        "url": "https://images.unsplash.com/photo-placeholder-sit",
+        "sight": false
+    },
+    "hit": {
+        "url": "https://images.unsplash.com/photo-placeholder-hit",
+        "sight": false
+    },
+    "lip": {
+        "url": "https://images.unsplash.com/photo-placeholder-lip",
+        "sight": false
+    },
+    "dog": {
+        "url": "https://images.unsplash.com/photo-1517849845537-4d257902454a",
+        "sight": false
+    },
+    "log": {
+        "url": "https://images.unsplash.com/photo-placeholder-log",
+        "sight": false
+    },
+    "fog": {
+        "url": "https://images.unsplash.com/photo-placeholder-fog",
+        "sight": false
+    },
+    "hot": {
+        "url": "https://images.unsplash.com/photo-placeholder-hot",
+        "sight": false
+    },
+    "pot": {
+        "url": "https://media1.giphy.com/media/KtSk0otJPSBy2kDETh/giphy.gif?cid=6c09b952q79n5mhp8doqnttus58501empx16z9orey9qhojn&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s",
+        "sight": false
+    },
+    "top": {
+        "url": "",
+        "sight": false
+    },
+    "mop": {
+        "url": "https://media.tenor.com/WKKn_5zCSY0AAAAM/cleaning-dog.gif",
+        "sight": false
+    },
+    "hop": {
+        "url": "https://media3.giphy.com/media/I089yG1i1jpgNWkZ99/giphy.gif?cid=6c09b952spfpcxrd0ngh6axw84x6yk7vkdd78c8yeovookyu&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s",
+        "sight": false
+    },
+    "pop": {
+        "url": "https://media2.giphy.com/media/z8U9TGtKJkFrCv0G3T/200w.gif?cid=6c09b952c6zn3xd4x5miqggpmd0mv08udcnmggbmepiwpdnt&ep=v1_gifs_search&rid=200w.gif&ct=g",
+        "sight": false
+    },
+    "shop": {
+        "url": "",
+        "sight": false
+    },
+    "bug": {
+        "url": "https://www.treehugger.com/thmb/8he5rIw5n2ukJ44XXOHK7L-6PIc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2017__05__lady-bug-on-leaf-e3cd36cdc3024129b61926ddf6ef386e.jpg",
+        "sight": false
+    },
+    "rug": {
+        "url": "https://assets.wfcdn.com/im/69176788/compr-r85/1893/189330398/mountview-oriental-rug.jpg",
+        "sight": false
+    },
+    "run": {
+        "url": "https://i.pinimg.com/originals/f8/65/6d/f8656d75a4be9fc4a16380a8301b9319.gif",
+        "sight": false
+    },
+    "sun": {
+        "url": "https://media2.giphy.com/media/cIWESg21TjxT3aNkjl/200w.gif?cid=6c09b952cgifz8g4ua7z681caral5vbqg6wt57vejqrfgo8o&ep=v1_gifs_search&rid=200w.gif&ct=g",
+        "sight": false
+    },
+    "cup": {
+        "url": "https://media2.giphy.com/media/ZSqCXwyDMMa76qFjSn/giphy.gif?cid=6c09b9523lo7z6myosf8d7uze4xk2fqbzb1u3d7c9yhs8xy9&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+        "sight": false
+    },
+    "mud": {
+        "url": "https://media.tenor.com/y3jcH4GSnIMAAAAM/slip-viralhog.gif",
+        "sight": false
+    },
+    "bag": {
+        "url": "https://media0.giphy.com/media/h8VD90wEBCPUrDda2d/giphy.gif?cid=6c09b952idga3ku3y1zcrmrb7e6i79q9d8q7hoe3v2d4i4tj&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s",
+        "sight": false
+    },
+    "tag": {
+        "url": "",
+        "sight": false
+    },
+    "wag": {
+        "url": "https://media2.giphy.com/media/oOkuKZEmTjDE2G3QIm/giphy.gif?cid=6c09b9520g9c74vd93nhjadj3grozwgrcmax2msjp8kn7mu3&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+        "sight": false
+    },
+    "rag": {
+        "url": "",
+        "sight": false
+    },
+    "sag": {
+        "url": "",
+        "sight": false
+    },
+    "cap": {
+        "url": "https://media1.giphy.com/media/BONGYpAVGj7FnYtgrw/200w.gif?cid=6c09b952iior0gob8srrsrwyza085j48j1t3k5ap9g0xn0ll&ep=v1_gifs_search&rid=200w.gif&ct=g",
+        "sight": false
+    },
+    "lap": {
+        "url": "",
+        "sight": false
+    },
+    "map": {
+        "url": "https://media4.giphy.com/media/3o6ZsVuc0gxSeAV3hu/giphy.gif?cid=6c09b952m4r6by6qmh70oos8gwm9rtbj14a7f411ikfvkex3&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+        "sight": false
+    },
+    "nap": {
+        "url": "https://images.unsplash.com/photo-placeholder-nap",
+        "sight": false
+    },
+    "tap": {
+        "url": "https://images.unsplash.com/photo-placeholder-tap",
+        "sight": false
+    },
+    "zap": {
+        "url": "https://media3.giphy.com/media/y5oetElpzdbToijNGL/200w.gif?cid=6c09b952snxtuw86a091m9cb4bt7d912ytne7qatcip8amar&ep=v1_gifs_search&rid=200w.gif&ct=g",
+        "sight": false
+    },
+    "fill": {
+        "url": "",
+        "sight": true
+    },
+    "hill": {
+        "url": "https://images.unsplash.com/photo-placeholder-hill",
+        "sight": false
+    },
+    "mill": {
+        "url": "https://cdn.pixabay.com/animation/2022/11/02/16/44/16-44-27-727_512.gif",
+        "sight": false
+    },
+    "pill": {
+        "url": "https://npr.brightspotcdn.com/dims4/default/ba0f574/2147483647/strip/true/crop/4032x3024+0+0/resize/880x660!/quality/90/?url=https%3A%2F%2Fwusfnews.wusf.usf.edu%2Fsites%2Fwusf%2Ffiles%2F201902%2Fprescription_pills_opioids4_daylina_miller.jpg",
+        "sight": false
+    },
+    "will": {
+        "url": "",
+        "sight": true
+    },
+    "bell": {
+        "url": "https://media4.giphy.com/media/69Eocjqmh0hjxJ41Cg/200w.gif?cid=6c09b952y1oqgj7ky2bgatfa0c0qy3qmlo5m3fa9rtlse47l&ep=v1_gifs_search&rid=200w.gif&ct=g",
+        "sight": false
+    },
+    "cell": {
+        "url": "https://images.unsplash.com/photo-placeholder-cell",
+        "sight": false
+    },
+    "tell": {
+        "url": "https://images.unsplash.com/photo-placeholder-tell",
+        "sight": false
+    },
+    "well": {
+        "url": "https://cdna.artstation.com/p/assets/images/images/028/908/662/original/arturo-grande-pozo.gif?1595882918",
+        "sight": false
+    },
+    "sell": {
+        "url": "https://cdn.dribbble.com/users/2086530/screenshots/18358577/media/557bd9efdfd7c674ff254f3017601f33.gif",
+        "sight": false
+    },
+    "back": {
+        "url": "https://media4.giphy.com/media/kvYxRi5OIwZbZ4R5ji/giphy.gif?cid=6c09b9527sl8t10zzecrf8a797tj50wqwby9n878vhiyyx8u&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+        "sight": false
+    },
+    "pack": {
+        "url": "https://media2.giphy.com/media/3o6MbrDw0OjMiRZfgY/giphy.gif?cid=6c09b952tm4bgezt91alncof8qstkch24172sqraqi4phlre&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+        "sight": false
+    },
+    "rack": {
+        "url": "https://images.unsplash.com/photo-placeholder-rack",
+        "sight": false
+    },
+    "sack": {
+        "url": "https://images.unsplash.com/photo-placeholder-sack",
+        "sight": false
+    },
+    "tack": {
+        "url": "https://images.unsplash.com/photo-placeholder-tack",
+        "sight": false
+    },
+    "lock": {
+        "url": "https://media4.giphy.com/media/Bcgilnov0J67b4AH2B/giphy.gif?cid=6c09b952z85r2a04484u6y46ffynnll2rubkyyq0vs27iqjh&ep=v1_stickers_search&rid=giphy.gif&ct=s",
+        "sight": false
+    },
+    "rock": {
+        "url": "https://media2.giphy.com/media/l0NwSy7RHwyQi8tji/giphy.gif?cid=6c09b952638szwknhbqfe2spw9bwydzbnruxlwwqldazaljf&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+        "sight": false
+    },
+    "sock": {
+        "url": "https://images.unsplash.com/photo-placeholder-sock",
+        "sight": false
+    },
+    "dock": {
+        "url": "https://media2.giphy.com/media/xT5LMC1bifwldf6pKo/200w.gif?cid=6c09b952lpw31fd39cwc0nvabg2266faxzoldd4fb3nca2pk&ep=v1_gifs_search&rid=200w.gif&ct=g",
+        "sight": false
+    },
+    "mock": {
+        "url": "https://images.unsplash.com/photo-placeholder-mock",
+        "sight": false
+    },
+    "kick": {
+        "url": "https://media.tenor.com/SE2kfGwu2JMAAAAM/doggo-puppy.gif",
+        "sight": false
+    },
+    "lick": {
+        "url": "https://i.redd.it/mpc488g69pwa1.gif",
+        "sight": false
+    },
+    "pick": {
+        "url": "https://images.unsplash.com/photo-placeholder-pick",
+        "sight": false
+    },
+    "sick": {
+        "url": "https://media0.giphy.com/media/G2RHGACYa3gO3g6SC4/giphy.gif?cid=6c09b9524j0ii3n01qze0qeipe8ru3glvpupmcbg2vhdpyr6&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+        "sight": false
+    },
+    "tick": {
+        "url": "https://cliply.co/wp-content/uploads/2021/03/372103860_CHECK_MARK_400px.gif",
+        "sight": false
+    },
+    "bash": {
+        "url": "https://media1.giphy.com/media/bAftZ12SC0uEjLndIh/200w.gif?cid=6c09b952xer9vll5ynnyp6638b36r1zb91ypuhqokxo4ok2l&ep=v1_gifs_search&rid=200w.gif&ct=g",
+        "sight": false
+    },
+    "cash": {
+        "url": "https://i0.wp.com/houstonherald.com/wp-content/uploads/2024/06/CASH-1.jpg?resize=1200%2C879&ssl=1",
+        "sight": false
+    },
+    "dash": {
+        "url": "",
+        "sight": false
+    },
+    "hash": {
+        "url": "",
+        "sight": false
+    },
+    "mash": {
+        "url": "",
+        "sight": false
+    },
+    "rash": {
+        "url": "https://media.tenor.com/c_oWQiiBdiUAAAAM/shingles-when-you-have-shingles.gif",
+        "sight": false
+    },
+    "king": {
+        "url": "https://static.wikia.nocookie.net/danieltigerneighborhood/images/c/cb/King_Friday2.JPG/revision/latest/scale-to-width-down/250?cb=20130221211008",
+        "sight": false
+    },
+    "ring": {
+        "url": "https://evryjewels.com/cdn/shop/files/daily-ring-1-3.jpg?crop=center&height=600&v=1718813935&width=600",
+        "sight": false
+    },
+    "sing": {
+        "url": "https://media.tenor.com/MTdXWYpVkQIAAAAj/bluey.gif",
+        "sight": false
+    },
+    "wing": {
+        "url": "https://i.pinimg.com/originals/ee/cc/2c/eecc2c44c7f921e7dbb198413df390ea.gif",
+        "sight": false
+    },
+    "sting": {
+        "url": "https://i.pinimg.com/originals/ac/a1/7e/aca17e10bbe57503c0034044d5f72cc4.gif",
+        "sight": false
+    }
+}
