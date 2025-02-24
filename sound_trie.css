@@ -1,22 +1,43 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
 #container {
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 20px;
-    max-width: 1200px;
+    overflow: hidden;
     margin: 0 auto;
-    min-height: 100vh;
     position: relative;
 }
 
+.top-section {
+    flex: 0 1 auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    min-height: 0;
+    padding-bottom: 20px;
+}
+
+.top-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
 .square {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     border: 2px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 36px;
+    font-size: 42px;
     font-weight: bold;
     cursor: pointer;
     margin: 5px;
@@ -24,16 +45,29 @@
     transition: background-color 0.2s;
 }
 
+/* Active squares (ones you can click) */
 .main-square {
     background-color: #e0e0ff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transform: scale(1.1);  /* Make active squares slightly larger */
 }
 
 .main-square:active {
     background-color: #ffeb3b;
+    transform: scale(1.05);
+}
+
+/* Completed squares (history) */
+.history-line .square {
+    background-color: #ffeb3b;
+    opacity: 0.7;
+    cursor: default;
+    transform: scale(0.9);  /* Make history squares slightly smaller */
+    box-shadow: none;
 }
 
 .text-display {
-    font-size: 48px;
+    font-size: 64px;
     font-weight: bold;
     text-align: center;
     padding: 20px;
@@ -46,34 +80,17 @@
     border-radius: 10px;
 }
 
-.top-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-}
-
-.image-container {
-    width: 100%;
-    max-width: 300px;
-    aspect-ratio: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.image-container img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-}
-
 .bottom-section {
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    padding: 20px 0;
+    margin-bottom: 120px;
 }
 
 .history-line,
@@ -86,27 +103,54 @@
     width: 100%;
 }
 
-.history-line .square {
-    background-color: #ffeb3b;
-    opacity: 0.8;
-    cursor: default;
+.history-line {
+    margin-bottom: 0;
+}
+
+.current-line {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+/* Container adjustments */
+.image-container {
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+.image-container img {
+    max-height: 15vh;
+    width: auto;
+    max-width: 150px;
+    object-fit: contain;
 }
 
 /* Mobile responsiveness */
 @media (max-width: 600px) {
     .square {
-        width: 60px;
-        height: 60px;
-        font-size: 24px;
+        width: 80px;
+        height: 80px;
+        font-size: 32px;
     }
     
     .text-display {
-        font-size: 36px;
-        padding: 10px;
+        font-size: 48px;
     }
     
     .image-container {
-        max-width: 200px;
+        max-width: 150px;
     }
     
     .history-line,
@@ -124,41 +168,29 @@
 
 .button-container {
     position: fixed;
-    bottom: 20px;
+    bottom: 0;
     left: 0;
     right: 0;
+    background: white;
+    padding: 10px;
+    padding-bottom: env(safe-area-inset-bottom);
+    z-index: 100;
     display: flex;
     justify-content: center;
-    padding: 20px;
 }
 
 .next-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    padding: 15px 30px;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
     border: none;
     border-radius: 25px;
     background: #9B7ED9;
     cursor: pointer;
-    transition: transform 0.2s;
-    width: 40%;
-    max-width: 300px;
 }
 
-.next-button:hover {
-    transform: scale(1.05);
-}
-
-.next-button .next-gif {
-    height: 60px;
-    width: 90px;
-    border-radius: 30px;
-    object-fit: cover;
-}
-
-.next-button .arrow {
-    font-size: 30px;
-    color: white;
+.next-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }

@@ -86,8 +86,14 @@ function createSquares() {
     const currentLine = document.createElement('div');
     currentLine.className = 'current-line';
     
-    // Create squares for available sounds in current node
-    const sounds = Object.keys(currentNode).filter(key => key !== 'isWord' && key !== 'word');
+    // Get available sounds and randomly select 5 if there are more
+    let sounds = Object.keys(currentNode).filter(key => key !== 'isWord' && key !== 'word');
+    if (sounds.length > 5) {
+        sounds = sounds
+            .sort(() => Math.random() - 0.5)  // Shuffle array
+            .slice(0, 5);  // Take first 5 elements
+    }
+    
     sounds.forEach(sound => {
         const square = createSquare(sound);
         currentLine.appendChild(square);
@@ -168,7 +174,7 @@ function updateDisplayText() {
             imageContainer.innerHTML = `<img src="${randomUrl}" alt="${word}">`;
         }
 
-        // Add next button with random gif from _next.urls
+        // Update button container placement
         if (currentNode.isWord && wordImages['_next'] && wordImages['_next'].urls && wordImages['_next'].urls.length > 0) {
             const randomNextIndex = Math.floor(Math.random() * wordImages['_next'].urls.length);
             const nextUrl = wordImages['_next'].urls[randomNextIndex];
@@ -178,7 +184,7 @@ function updateDisplayText() {
             if (!buttonContainer) {
                 buttonContainer = document.createElement('div');
                 buttonContainer.className = 'button-container';
-                document.getElementById('container').appendChild(buttonContainer);
+                document.body.appendChild(buttonContainer);  // Changed from container to body
             }
             
             const nextButton = document.createElement('button');
