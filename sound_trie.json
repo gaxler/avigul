@@ -1,0 +1,18 @@
+[
+    ["CAT", ["C", "AT"]],
+    ["DOG", ["D", "OG"]],
+    ["HAT", ["H", "AT"]],
+    ["FROG", ["FR", "OG"]],
+    ["PEEK", ["P", "EEK"]],
+    ["SEEK", ["S", "EEK"]],
+    ["FAN", ["F", "AN"]],
+    ["MAN", ["M", "AN"]],
+    ["PIG", ["P", "IG"]],
+    ["BIG", ["B", "IG"]],
+    ["BOX", ["B", "OX"]],
+    ["FOX", ["F", "OX"]],
+    ["ABIGAIL", ["A", "BI", "GA", "IL"]],
+    ["LICK", ["L", "ICK"]],
+    ["KICK", ["K", "ICK"]]
+    
+]
