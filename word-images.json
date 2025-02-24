@@ -87,6 +87,10 @@
         "url": "",
         "sight": false
     },
+    "frog": {
+        "url": "https://media.tenor.com/TqEA5m3l-u0AAAAM/animal-animals.gif",
+        "sight": false
+    },
     "bug": {
         "url": "https://www.treehugger.com/thmb/8he5rIw5n2ukJ44XXOHK7L-6PIc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2017__05__lady-bug-on-leaf-e3cd36cdc3024129b61926ddf6ef386e.jpg",
         "sight": false
@@ -276,7 +280,9 @@
     },
     "_next":{
         "urls": [
-            "https://media.tenor.com/UfpIm_VjMDEAAAAM/moana.gif"
+            "https://media.tenor.com/UfpIm_VjMDEAAAAM/moana.gif",
+            "https://media.tenor.com/Y1rAFV25rVEAAAAM/bluey-hooray.gif",
+            "https://www.icegif.com/wp-content/uploads/2023/11/icegif-213.gif"
         ],
         "sight": false
     }

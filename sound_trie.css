@@ -136,15 +136,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
-    padding: 20px 40px;
+    gap: 15px;
+    padding: 15px 30px;
     border: none;
-    border-radius: 35px;
+    border-radius: 25px;
     background: #9B7ED9;
     cursor: pointer;
     transition: transform 0.2s;
-    width: 80%;
-    max-width: 400px;
+    width: 40%;
+    max-width: 300px;
 }
 
 .next-button:hover {
@@ -152,13 +152,13 @@
 }
 
 .next-button .next-gif {
-    height: 80px;
-    width: 120px;
-    border-radius: 40px;
+    height: 60px;
+    width: 90px;
+    border-radius: 30px;
     object-fit: cover;
 }
 
 .next-button .arrow {
-    font-size: 36px;
+    font-size: 30px;
     color: white;
 }
